@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import Pagewrapper from "../components/Pagewrapper";
+import PageWrapper from "../components/PageWrapper";
 import GalaxyBackground from "../components/GalaxyBackground";
-import Backgroundstars from "../components/Backgroundstars";
+import BackgroundStars from "../components/BackgroundStars";
 import Hero from "../components/Hero";
 import NameInput from "../components/NameInput";
 import PhotoUpload from "../components/PhotoUpload";
@@ -14,9 +14,9 @@ function Home() {
   const [dob, setDob] = useState("");
 
   return (
-    <Pagewrapper>
+    <PageWrapper>
       <GalaxyBackground />
-      <Backgroundstars />
+      <BackgroundStars />
 
       <div className="container">
         <div className="card">
@@ -65,7 +65,7 @@ function Home() {
           />
         </div>
       </div>
-    </Pagewrapper>
+    </PageWrapper>
   );
 }
 

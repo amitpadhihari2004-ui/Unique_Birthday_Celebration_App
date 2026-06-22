@@ -1,19 +1,19 @@
    import GalaxyBackground from "../components/GalaxyBackground";
-import Backgroundstars from "../components/Backgroundstars";
+import BackgroundStars from "../components/BackgroundStars";
 import BalloonAnimation from "../components/BalloonAnimation";
 import FallingPetals from "../components/FallingPetals";
 import Fireworks from "../components/Fireworks";
-import Birthdaycake from "../components/Birthdaycake";
+import BirthdayCake from "../components/BirthdayCake";
 import SecretLetter from "../components/SecretLetter";
-import spinwheel from "../components/spinwheel";
+import SpinWheel from "../components/SpinWheel";
 import FinalCard from "../components/FinalCard";
-import pagewrapper from "../components/pagewrapper";
+import PageWrapper from "../components/PageWrapper";
 
 function FinalPage() {
   return (
-    <pagewrapper>
+    <PageWrapper>
       <GalaxyBackground />
-      <Backgroundstars />
+      <BackgroundStars />
       <Fireworks />
       <BalloonAnimation />
       <FallingPetals />
@@ -25,17 +25,17 @@ function FinalPage() {
 
           <h1>🌠 For you Amazing Year. 🌠</h1>
 
-          <Birthdaycake />
+          <BirthdayCake />
 
           <SecretLetter />
 
-          <spinwheel />
+          <SpinWheel />
 
           <FinalCard />
 
         </div>
       </div>
-    </pagewrapper>
+    </PageWrapper>
   );
 }
 

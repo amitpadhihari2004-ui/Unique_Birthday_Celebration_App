@@ -8,6 +8,15 @@ function ZodiacDropdown() {
     <select
       value={zodiac}
       onChange={(e) => setZodiac(e.target.value)}
+       style={{
+    backgroundColor: "black",
+    color: "white",
+    border: "2px solid white",
+    padding: "12px",
+    borderRadius: "10px",
+    width: "100%",
+    fontSize: "16px"
+  }}
     >
       <option value="">Select Zodiac</option>
       <option>♈ Aries</option>
